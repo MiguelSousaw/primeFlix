@@ -1,0 +1,30 @@
+.favoritos-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lista-filmesfav{
+    width: 500px;
+}
+
+.lista-filmesfav h1{
+    text-align: center;
+}
+
+.lista-filmesfav li{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.btn{
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.detalhes{
+    color: #116feb;
+}
