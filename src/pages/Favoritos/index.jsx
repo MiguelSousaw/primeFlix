@@ -23,8 +23,8 @@ function Favoritos() {
 
     return(
         <div className='favoritos-container'>
+            <h1>Meu filmes</h1>
             <div className="lista-filmesfav">
-                <h1>Meu filmes</h1>
                 {filmes.length === 0 && <span className='aviso'>Você não possui filmes salvos :)</span>}
 
                 <ul>

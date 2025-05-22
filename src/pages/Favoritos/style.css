@@ -6,11 +6,19 @@
 }
 
 .lista-filmesfav{
-    width: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.lista-filmesfav h1{
+h1{
     text-align: center;
+}
+
+.lista-filmesfav ul{
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
 }
 
 .lista-filmesfav li{
@@ -27,4 +35,9 @@
 
 .detalhes{
     color: #116feb;
+}
+
+.aviso{
+    width: 100%;
+    font-size: 22px;
 }
