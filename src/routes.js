@@ -10,11 +10,10 @@ function Routeapp(){
         <BrowserRouter>
             <Header/>
             <Routes>
-                <Route path="/Home" element={<Home />} />
+                <Route path="/" element={<Home />} />
                 <Route path="/Filmes/:id" element={<Filmes />} />
                 <Route path="/Favoritos" element={<Favoritos />} />
                 <Route path="*" element={<Erro />} />
-
             </Routes>
         </BrowserRouter>
     )
